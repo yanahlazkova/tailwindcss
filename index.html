@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <div class="flex p-2 items-center bg-blue-500">
+    <!-- <div class="flex p-2 items-center bg-blue-500">
         <div class="m-2">
             <a href="#">
             <img src="images/display-solid.svg" alt="Logo" class="min-w-8"></a>
@@ -38,7 +38,7 @@
                 <img src="images/circle-user-solid.svg" alt="user_account" class="min-w-8">
             </a>
         </div>
-    </div>
+    </div> -->
 
     
     <nav class="bg-blue-800">
@@ -47,7 +47,9 @@
 
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div class="flex shrink-0 items-center">
-                <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                <a href="#">
+                  <img src="images/display-solid.svg" alt="Logo" class="min-w-8">
+                </a>
               </div>
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
@@ -68,7 +70,6 @@
                     <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
                   </button>
                 </div>
-      
               </div>
             </div>
           </div>
@@ -77,89 +78,169 @@
     
     <div>
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div>
+          <h1 class="text-4xl text-center m-5">Dakota Greenaway (ABC_123)</h1>
+          <hr>
+        </div>
+        <div class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2 rounded-sm ">
           <div>
-            <h1 class="text-4xl text-center m-5">Dakota Greenaway (ABC_123)</h1>
-            <hr>
+            <h2 class="text-2xl text-center m-5">News</h2>
+            <div class="p-2.5 rounded-t-sm border-1 border-gray-300">
+              <img class="size-35 float-left m-0" src="./images/calendar-weather-cloud-svgrepo-com.svg" alt="calendar">
+              <dt class="text-end text-xs">1 days ago</dt>
+              <dd>
+                <div class="p-2.5 pt-0">
+                  <span class="text-xl font-bold">Weekends</span>
+                  <p class="mt-2.5 text-base">Dear students, kindly be informed that there will be no lessons on 5th and 6th April at the Academy due to the holiday.</p>
+                </div>
+              </dd>
+            </div>
+            <div class="p-2.5 border-1 border-t-0 border-gray-300">
+              <dt class="text-end text-xs">3 days ago</dt>
+              <dd>
+                <div class="p-2.5 pt-0">
+                  <span class="text-xl font-bold">Programming consultations</span>
+                  <p class="mt-2.5 text-base">This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultations for first-year students.</p>
+                </div>
+              </dd>
+            </div>
+            <div class="p-2.5 rounded-b-sm border-1 border-t-0 border-gray-300">
+              <img class="size-30 float-left m-0" src="./images/milk-tea-svgrepo-com.svg" alt="calendar">
+              <dt class="text-end text-xs">20.03.2019</dt>
+              <dd>
+                <div class="p-2.5 pt-0">
+                  <span class="text-xl font-bold">Metting with ABC Bank</span>
+                  <p class="mt-2.5 text-base">On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank.</p>
+                </div>
+              </dd>
+            </div>
+            <div class="items-center">
+              <button type="button" class="rounded-sm bg-gray-500 text-white mt-2.5 w-full h-8">
+              <span>More</span>
+              </button>
+            </div>
           </div>
-          <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
-            <div>
-              <h2 class="text-2xl text-center m-5">News</h2>
-              <div class="p-2.5 border-1 border-gray-600">
-                <img class="size-35 float-left m-0" src="./images/calendar-weather-cloud-svgrepo-com.svg" alt="calendar">
-                <dt class="text-end text-xs">1 days ago</dt>
-                <dd>
-                  <div class="p-2.5 pt-0">
-                    <span class="text-xl font-bold">Weekends</span>
-                    <p class="mt-2.5 text-base">Dear students, kindly be informed that there will be no lessons on 5th and 6th April at the Academy due to the holiday.</p>
-                  </div>
-                </dd>
+                  
+          <!-- Другий стовбчик -->
+          <div>
+            <h2 class="text-2xl text-center m-5">Rewards</h2>
+            <div class="grid grid-cols-5 gap-2.5 items-center">
+              <div class="relative grid place-items-center col-span-2 min-w-40 justify-self-end">
+                <img class="absolute z-0 h-10 w-40" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">Class attended</span>
               </div>
-              <div class="p-2.5 border-1 border-t-0 border-gray-600">
-                <dt class="text-end text-xs">3 days ago</dt>
-                <dd>
-                  <div class="p-2.5 pt-0">
-                    <span class="text-xl font-bold">Programming consultations</span>
-                    <p class="mt-2.5 text-base">This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultations for first-year students.</p>
-                  </div>
-                </dd>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
               </div>
-              <div class="p-2.5 border-1 border-t-0 border-gray-600">
-                <img class="size-30 float-left m-0" src="./images/milk-tea-svgrepo-com.svg" alt="calendar">
-                <dt class="text-end text-xs">20.03.2019</dt>
-                <dd>
-                  <div class="p-2.5 pt-0">
-                    <span class="text-xl font-bold">Metting with ABC Bank</span>
-                    <p class="mt-2.5 text-base">On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank.</p>
-                  </div>
-                </dd>
+              <div class="relative grid place-items-center col-span-2 w-30 justify-self-start">
+                <img class="absolute z-0 h-10 w-30 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">20.04.2019</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-30 justify-self-end">
+                <img class="absolute z-0 h-10 w-30" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">19.04.2019</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-40 justify-self-start">
+                <img class="absolute z-0 h-10 w-40 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-40 justify-self-end">
+                <img class="absolute z-0 h-10 w-40" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-30 justify-self-start">
+                <img class="absolute z-0 h-10 w-30 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">18.04.2019</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-30 justify-self-end">
+                <img class="absolute z-0 h-10 w-30" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">17.04.2019</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-40 justify-self-start">
+                <img class="absolute z-0 h-10 w-40 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-40 justify-self-end">
+                <img class="absolute z-0 h-10 w-40" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-30 justify-self-start">
+                <img class="absolute z-0 h-10 w-30 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">16.04.2019</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-30 justify-self-end">
+                <img class="absolute z-0 h-10 w-30" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">15.04.2019</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-40 justify-self-start">
+                <img class="absolute z-0 h-10 w-40 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-40 justify-self-end">
+                <img class="absolute z-0 h-10 w-40" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-30 justify-self-start">
+                <img class="absolute z-0 h-10 w-30 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">14.04.2019</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-30  justify-self-end">
+                <img class="absolute z-0 h-10 w-30" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">13.04.2019</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-40 justify-self-start">
+                <img class="absolute z-0 h-10 w-40 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="relative grid place-items-center col-span-2 min-w-40 justify-self-end">
+                <img class="absolute z-0 h-10 w-40" src="./images/arrow-left.png" alt="">
+                <span class="relative z-10">Class attended</span>
+              </div>
+              <div class="flex justify-center items-center">
+                <span class="text-xl font-bold">+1</span>
+                <img class="h-10" src="./images/icons8-award-60.png" alt="">
+              </div>
+              <div class="relative grid place-items-center col-span-2 w-30 justify-self-start">
+                <img class="absolute z-0 h-10 w-30 ml-2" src="./images/arrow-rigth.png" alt="">
+                <span class="relative z-10">12.04.2019</span>
               </div>
             </div>
-            <div>
-              <h2 class="text-2xl text-center m-5">Rewards</h2>
-              <div class="p-2.5 items-center">
-                <ul class="list-none">
-                  <li class="grid grid-cols-3 gap-0.5 items-center">
-                    <!-- <div class="grid place-items-center w-50 h-10 bg-[url('/images/arrow-1.png')] bg-cover bg-center">
-                      <span class="text-white font-bold bg-black/50 p-1 rounded-lg">Твой текст здесь</span>
-
-                  </div> -->
-                    <div class="grid place-items-center w-50 h-10">
-                      <img class="size-20 absolute z-0 h-10 w-35" src="./images/arrow-left.png" alt="">
-                      <span>Class attended</span>
-                    </div>
-                    <div class="flex justify-center items-center">
-                      <span class="text-xl font-bold">+1</span>
-                      <img class="text-red-600" src="./images/icons8-award-60.png" alt="">
-                    </div>
-                    <div class="grid place-items-center w-50 h-10">
-                      <img class="size-20 absolute z-0 h-10 w-25" src="./images/arrow-rigth.png" alt="">
-                      <span>20.04.2019</span>
-                    </div>
-                  </li>
-                  <li class="grid grid-cols-3 ">
-                    <div class="justify-end">
-                      <div class="grid place-items-center w-50 h-10">
-                        <img class="size-20 absolute z-0 h-10 w-25" src="./images/arrow-left.png" alt="">
-                        <span>20.04.2019</span>
-                      </div>
-
-                    </div>
-                    <div class="flex justify-center items-center">
-                      <span class="text-xl font-bold">+1</span>
-                      <img class="text-red-600" src="./images/icons8-award-60.png" alt="">
-                    </div>
-                    <div class="grid place-items-center w-50 h-10">
-                      <img class="size-20 absolute z-0 h-10 w-35" src="./images/arrow-rigth.png" alt="">
-                      <span>Class attended</span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+            <div class="items-center">
+              <button type="button" class="rounded-sm bg-gray-100 text-gray-400 fon mt-2.5 w-full h-8">
+              <span>More</span>
+              </button>
             </div>
-          </dl>
+          </div>
         </div>
       </div>
-      
-        
 </body>
 </html>
